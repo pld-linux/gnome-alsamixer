@@ -12,7 +12,7 @@ BuildRequires:	alsa-lib >= 0.9.0
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	gtk+2 >= 2.1.4
-BuildRequires:	libgnomeui >= 2.1.4
+BuildRequires:	libgnomeui-devel >= 2.1.4
 BuildRoot:      %{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
