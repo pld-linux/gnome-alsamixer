@@ -21,9 +21,9 @@ diff -urN gnome-alsamixer-0.9.1.orig/gnome-alsamixer.desktop gnome-alsamixer-0.9
 @@ -1,11 +1,12 @@
  [Desktop Entry]
  Name=ALSA Volume Control
-+Name[pl]=Mikser dºwiÍku ALSA
++Name[pl]=Mikser d≈∫wiƒôku ALSA
  Comment=Adjust the volume level
-+Comment[pl]=Sterowanie poziomem g≥o∂no∂ci
++Comment[pl]=Sterowanie poziomem g≈Ço≈õno≈õci
  Exec=gnome-alsamixer
  Icon=gnome-alsamixer/gnome-alsamixer-icon.png
  Info=Gnome ALSA Mixer
