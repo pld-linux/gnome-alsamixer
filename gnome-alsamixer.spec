@@ -1,7 +1,7 @@
 Summary:	An ALSA mixer for GNOME
 Summary(pl):	Mikser ALSA dla GNOME
 Name:		gnome-alsamixer
-Version:	0.9.2
+Version:	0.9.3
 Release:	1
 License:	GPL
 Group:		X11/Applications/Sound
