@@ -2,7 +2,7 @@ Summary:	An ALSA mixer for GNOME
 Summary(pl):	Mikser ALSA dla GNOME
 Name:		gnome-alsamixer
 Version:	0.9.3
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications/Sound
 Source0:	ftp://ftp.paw.co.za/pub/PAW/sources/%{name}-%{version}.tar.gz
