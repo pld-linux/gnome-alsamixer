@@ -14,7 +14,7 @@ BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	gtk+2 >= 2.1.4
 BuildRequires:	libgnomeui-devel >= 2.1.4
-BuildRoot:      %{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 A sound mixer for GNOME which is written for the Advanced Linux Sound
