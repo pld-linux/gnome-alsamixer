@@ -47,5 +47,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog
 %attr(755,root,root) %{_bindir}/%{name}
-%{_datadir}/applications/%{name}.desktop
-%{_datadir}/pixmaps/%{name}
+%{_desktopdir}/%{name}.desktop
+%{_pixmapsdir}/%{name}
