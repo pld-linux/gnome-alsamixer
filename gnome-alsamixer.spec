@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		X11/Applications/Sound
 Source0:	ftp://ftp.paw.co.za/pub/PAW/sources/%{name}-%{version}.tar.gz
+# Source0-md5:	594aec0bebe41833eeb39ecda74ee82c
 Patch0:		%{name}-desktop.patch
 URL:		http://www.paw.co.za/projects/gnome-alsamixer
 BuildRequires:	alsa-lib >= 0.9.0
