@@ -1,13 +1,12 @@
 Summary:	An ALSA mixer for GNOME
 Summary(pl):	Mikser ALSA dla GNOME
 Name:		gnome-alsamixer
-Version:	0.9.5
+Version:	0.9.6
 Release:	1
 License:	GPL
 Group:		X11/Applications/Sound
 Source0:	ftp://ftp.paw.co.za/pub/PAW/sources/%{name}-%{version}.tar.gz
 # Source0-md5:	de94966d942657a06806831e1bbc1dbf
-Patch0:		%{name}-desktop.patch
 URL:		http://www.paw.co.za/projects/gnome-alsamixer/
 BuildRequires:	alsa-lib >= 0.9.0
 BuildRequires:	autoconf
@@ -26,7 +25,6 @@ Linux Sound Architecture), obs³uguj±cy ALSê 0.9.x.
 
 %prep
 %setup -q
-%patch0 -p1
 
 %build
 %{__aclocal}
@@ -48,5 +46,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog
 %attr(755,root,root) %{_bindir}/%{name}
-%{_desktopdir}/%{name}.desktop
 %{_pixmapsdir}/%{name}
