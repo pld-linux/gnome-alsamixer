@@ -1,0 +1,35 @@
+diff -urN gnome-alsamixer-0.9.1.orig/Makefile.am gnome-alsamixer-0.9.1/Makefile.am
+--- gnome-alsamixer-0.9.1.orig/Makefile.am	Sat Nov 23 14:45:03 2002
++++ gnome-alsamixer-0.9.1/Makefile.am	Sat Nov 23 14:50:50 2002
+@@ -17,12 +17,7 @@
+ 	fi
+ 	if test -f $(srcdir)/gnome-alsamixer.desktop; then \
+ 	  $(mkinstalldirs) $(DESTDIR)$(datadir)/applications; \
+-	  desktop-file-install --vendor "PAW Digital Dynamics" --delete-original \
+-	    --dir $(DESTDIR)$(datadir)/applications                              \
+-	    --add-category X-Red-Hat-Extra                                       \
+-	    --add-category Application                                           \
+-	    --add-category AudioVideo                                            \
+-	    $(srcdir)/gnome-alsamixer.desktop;                                   \
++	    $(INSTALL_DATA) $(srcdir)/gnome-alsamixer.desktop $(DESTDIR)$(datadir)/applications; \
+ 	fi
+ 
+ dist-hook:
+diff -urN gnome-alsamixer-0.9.1.orig/gnome-alsamixer.desktop gnome-alsamixer-0.9.1/gnome-alsamixer.desktop
+--- gnome-alsamixer-0.9.1.orig/gnome-alsamixer.desktop	Sat Nov 23 14:45:03 2002
++++ gnome-alsamixer-0.9.1/gnome-alsamixer.desktop	Sat Nov 23 14:48:09 2002
+@@ -1,11 +1,12 @@
+ [Desktop Entry]
+ Name=ALSA Volume Control
++Name[pl]=Mikser d¼wiêku ALSA
+ Comment=Adjust the volume level
++Comment[pl]=Sterowanie poziomem g³o¶no¶ci
+ Exec=gnome-alsamixer
+ Icon=gnome-alsamixer/gnome-alsamixer-icon.png
+ Info=Gnome ALSA Mixer
+ Terminal=0
+ Type=Application
+-Categories=Application;AudioVideo;X-Red-Hat-Base;
++Categories=Application;AudioVideo;
+ Encoding=UTF-8
+-X-Desktop-File-Install-Version=0.3
