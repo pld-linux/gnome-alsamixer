@@ -8,6 +8,6 @@ Exec=gnome-alsamixer
 Icon=gnome-alsamixer/gnome-alsamixer-icon.png
 Terminal=false
 Type=Application
-Categories=GNOME;GTK;AudioVideo;Mixer;
+Categories=GTK;GNOME;Audio;Mixer;
 StartupNotify=true
 # vi: encoding=utf-8
