@@ -1,5 +1,5 @@
-Summary:	An ALSA mixer for GNOME written for ALSA 0.9.x
-Summary(pl):	Mikser ALSA dla GNOME, napisany dla ALSy 0.9.x
+Summary:	An ALSA mixer for GNOME
+Summary(pl):	Mikser ALSA dla GNOME
 Name:		gnome-alsamixer
 Version:	0.9.2
 Release:	1
