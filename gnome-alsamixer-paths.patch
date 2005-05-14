@@ -1,0 +1,22 @@
+--- gnome-alsamixer-0.9.6/src/Makefile.am.orig	2005-05-14 14:27:57.000000000 +0200
++++ gnome-alsamixer-0.9.6/src/Makefile.am	2005-05-14 14:31:32.000000000 +0200
+@@ -2,7 +2,7 @@
+ 
+ INCLUDES = \
+ 	-DPACKAGE_DATA_DIR=\""$(datadir)/gnome-alsamixer"\"        \
+-	-DPIXMAP_ICONDIR=\""$(datadir)/pixmaps/gnome-alsamixer"\"  \
++	-DPIXMAP_ICONDIR=\""$(datadir)/pixmaps"\"  \
+ 	-DPACKAGE_LOCALE_DIR=\""$(prefix)/$(DATADIRNAME)/locale"\" \
+ 	@PACKAGE_CFLAGS@
+ 
+--- gnome-alsamixer-0.9.6/src/gam-app.c.orig	2003-09-09 13:41:23.000000000 +0200
++++ gnome-alsamixer-0.9.6/src/gam-app.c	2005-05-14 14:38:23.000000000 +0200
+@@ -142,7 +142,7 @@
+     g_signal_connect (G_OBJECT (gam_app), "delete_event",
+                       G_CALLBACK (gam_app_delete_cb), NULL);
+ 
+-    gnome_window_icon_set_default_from_file (PIXMAP_ICONDIR "/gnome-alsamixer-icon.png");
++    gnome_window_icon_set_default_from_file (PIXMAP_ICONDIR "/gnome-alsamixer.png");
+ 
+     gnome_app_create_menus_with_data (GNOME_APP (gam_app), menubar_uiinfo, gam_app);
+ 
