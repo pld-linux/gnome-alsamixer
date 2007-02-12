@@ -1,5 +1,5 @@
 Summary:	An ALSA mixer for GNOME
-Summary(pl):	Mikser ALSA dla GNOME
+Summary(pl.UTF-8):   Mikser ALSA dla GNOME
 Name:		gnome-alsamixer
 Version:	0.9.6
 Release:	4
@@ -24,9 +24,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 A sound mixer for GNOME which is written for the Advanced Linux Sound
 Architecture (ALSA), which supports ALSA 0.9.x.
 
-%description -l pl
-Mikser d¼wiêku dla GNOME, napisany dla architektury ALSA (Advanced
-Linux Sound Architecture), obs³uguj±cy ALSê 0.9.x.
+%description -l pl.UTF-8
+Mikser dÅºwiÄ™ku dla GNOME, napisany dla architektury ALSA (Advanced
+Linux Sound Architecture), obsÅ‚ugujÄ…cy ALSÄ™ 0.9.x.
 
 %prep
 %setup -q
