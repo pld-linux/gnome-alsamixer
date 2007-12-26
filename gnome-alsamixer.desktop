@@ -1,11 +1,10 @@
 [Desktop Entry]
-Encoding=UTF-8
 Name=ALSA sound mixer 
 Name[pl]=Mikser dźwięku ALSA
 Comment=Adjust the volume level
 Comment[pl]=Ustawia poziom głośności
 Exec=gnome-alsamixer
-Icon=gnome-alsamixer.png
+Icon=gnome-alsamixer
 Terminal=false
 Type=Application
 Categories=GTK;GNOME;Audio;Mixer;
