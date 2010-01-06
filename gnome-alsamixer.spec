@@ -14,6 +14,7 @@ URL:		http://www.paw.co.za/projects/gnome-alsamixer/
 BuildRequires:	alsa-lib >= 0.9.0
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	gnome-common
 BuildRequires:	gtk+2 >= 2.2.0
 BuildRequires:	libgnomeui-devel >= 2.2.0
 BuildRequires:	pkgconfig
