@@ -15,8 +15,8 @@
      g_signal_connect (G_OBJECT (gam_app), "delete_event",
                        G_CALLBACK (gam_app_delete_cb), NULL);
  
--    gnome_window_icon_set_default_from_file (PIXMAP_ICONDIR "/gnome-alsamixer-icon.png");
-+    gnome_window_icon_set_default_from_file (PIXMAP_ICONDIR "/gnome-alsamixer.png");
+-    gnome_window_icon_set_default_from_file (PIXMAP_ICONDIR"/gnome-alsamixer-icon.png");
++    gnome_window_icon_set_default_from_file (PIXMAP_ICONDIR"/gnome-alsamixer.png");
  
      gnome_app_create_menus_with_data (GNOME_APP (gam_app), menubar_uiinfo, gam_app);
  
